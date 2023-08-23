@@ -1,0 +1,26 @@
+package assignment_3;
+
+public class Program_1SK {
+
+	public static void main(String[] args) {
+		int Choice = 1,num = 39;
+		if(num%5==0)
+		{
+			switch(Choice)
+			{
+				case 1:
+					System.out.println("Divisible by 5");
+					break;
+			}
+		}
+		else if(num%7==0)
+		{
+			switch(Choice)
+			{
+				case 1 :
+					System.out.println("Divisible by 7");
+			}
+		}
+
+	}
+}
